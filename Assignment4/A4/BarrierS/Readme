@@ -1,0 +1,4 @@
+To compile the code Type make
+The default make run is set for 6 threads and size 6 barrier
+To run the program type java BarrierS.BarrierTest <Barrier size> <Number of Threads>
+Type make clean to remove all .class files
