@@ -1,0 +1,55 @@
+8.b)
+The sender is never throttled due to lacking of receiver buffer space.
+
+9.
+No.
+By searching (tcp.analysis.retransmission or tcp.analysis.fast_retransmission) on the filter. There were no retransmission found.
+
+13.
+frame 38
+The fragment offset is zero.
+
+14.
+frame 38
+20 Bytes
+Total length is 56, so Payload is  56-20 = 36
+
+
+15.
+Time to live, Identification and Header checksum
+
+
+16.
+Source IP address – We are sending from same source 
+Destination IP address- We are contacting same destination
+Header Length-  stays the same since we are using IPv4
+Version - IPv4 is always used
+Differentiated Services – Protocol stays the same 
+Upper Layer Protocol – Protocol stays the same
+
+
+Source IP address – We are sending from same source 
+Destination IP address- We are contacting same destination
+Header Length-  stays the same since we are using IPv4
+Version - IPv4 is always used
+Differentiated Services – Protocol stays the same(ICMP)
+Upper Layer Protocol – Protocol stays the same(ICMP)
+
+Identification – Each packet has a different ID
+Header Checksum- Header changes so does checksum
+Time to live (traceroute increments each subsequent packet)
+
+
+17.
+They are increasing by 1.
+
+18.
+The nearest router will be in the same subnet and will have a common IP address component.
+64
+0x61e7 (25063)
+
+19.
+The TTL will remain unchanged because the first hop router is always the same.
+
+Identification for all ICMP TTL-exceeded replies will change because it is assigned a unique value.
+
