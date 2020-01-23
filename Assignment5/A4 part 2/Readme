@@ -1,0 +1,4 @@
+To compile the code Type make
+The default make run is set for values 6 3 100 100
+To run the program type java dishWashS.CleaningDishes <number of dishes > <size of rack> 100 100
+Type make clean to remove all .class files
