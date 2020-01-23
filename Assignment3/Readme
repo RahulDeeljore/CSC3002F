@@ -1,0 +1,5 @@
+To run Type python paging.py <Number of frames>
+The program will generate a random 32 digit string and will test the algorithms with an 8,16,24 and 32 digit reference string
+It will then print the number of page faults found
+
+Program is written in Python3
