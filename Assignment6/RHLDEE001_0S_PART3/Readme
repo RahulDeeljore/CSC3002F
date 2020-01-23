@@ -1,0 +1,5 @@
+Type make to compile
+
+Type make run to run the simulation with 12 hydrogen atoms and 4 carbon atoms
+
+Type molecule.Runsimulation <number of hydrogen atoms> <number of carbon atoms> to run with choosen values
